@@ -1,3 +1,14 @@
+-- =====================================================
+-- MODULO
+-- 01 - BLOQUES ANONIMOS
+--
+-- OBJETIVO
+-- Aprender la estructura básica de PL/SQL
+--
+-- AUTOR
+-- Luis Ferrioli
+-- =====================================================
+
 SET SERVEROUTPUT ON;
 
 -- =====================================================
