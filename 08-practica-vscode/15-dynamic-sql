@@ -1,0 +1,68 @@
+# 15 - Dynamic SQL
+
+## Objetivo
+
+Aprender a construir y ejecutar SQL dinámicamente.
+
+Dynamic SQL permite generar consultas y DML en tiempo de ejecución.
+
+---
+
+# ¿Qué es Dynamic SQL?
+
+Es SQL construido como texto y ejecutado posteriormente.
+
+---
+
+# Herramientas
+
+## EXECUTE IMMEDIATE
+
+```plsql
+EXECUTE IMMEDIATE v_sql;
+```
+
+---
+
+# Casos de Uso
+
+- Frameworks genéricos.
+- Auditorías.
+- ETL.
+- Utilitarios.
+- Administración Oracle.
+
+---
+
+# Ventajas
+
+- Flexibilidad.
+- Reutilización.
+- Adaptación a múltiples tablas.
+
+---
+
+# Riesgos
+
+- SQL Injection.
+- Dificultad de debugging.
+- Menor legibilidad.
+- Hard Parsing excesivo.
+
+---
+
+# Buenas Prácticas
+
+- Utilizar bind variables.
+- Validar entradas.
+- Evitar concatenación insegura.
+
+---
+
+# Checklist Senior
+
+- ¿Qué es EXECUTE IMMEDIATE?
+- ¿Cuándo utilizar Dynamic SQL?
+- ¿Qué es SQL Injection?
+- ¿Qué ventajas tienen los bind variables?
+- ¿Qué impacto tiene en performance?
