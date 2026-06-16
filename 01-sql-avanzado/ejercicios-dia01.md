@@ -53,3 +53,29 @@ Combinar filtros y ordenamiento.
 - Diferencia entre WHERE y HAVING.
 - Diferencia entre ORDER BY ASC y DESC.
 - Cuándo Oracle aplica el filtro.
+
+
+# Checklist Senior
+
+Debo poder explicar:
+
+1. ¿Cuál es el orden lógico de ejecución de una consulta SQL?
+
+2. ¿Qué diferencia existe entre:
+
+SELECT *
+y
+SELECT columna1, columna2
+
+3. ¿Por qué SELECT * es considerado una mala práctica?
+
+4. ¿Qué diferencia existe entre:
+
+WHERE
+ORDER BY
+
+5. ¿Cuándo Oracle aplica el filtro WHERE?
+
+6. ¿Qué impacto puede tener un ORDER BY sobre millones de registros?
+
+7. ¿Qué operaciones suelen requerir SORT?
